@@ -48,33 +48,32 @@ public class Main {
         System.out.println();
 
 
-        if (input.equals("januari")) {
+        if (input.equalsIgnoreCase("januari")) {
             System.out.println(januari + " dagar");
-        } else if (input.equals("februari")) {
+        } else if (input.equalsIgnoreCase("februari")) {
             System.out.println(februari + " dagar");
-        } else if (input.equals("mars")) {
+        } else if (input.equalsIgnoreCase("mars")) {
             System.out.println(mars + " dagar");
-        } else if (input.equals("april")) {
+        } else if (input.equalsIgnoreCase("april")) {
             System.out.println(april + " dagar");
-        } else if (input.equals("maj")) {
+        } else if (input.equalsIgnoreCase("maj")) {
             System.out.println(maj + " dagar");
-        } else if (input.equals("juni")) {
+        } else if (input.equalsIgnoreCase("juni")) {
             System.out.println(juni + " dagar");
-        } else if (input.equals("juli")) {
+        } else if (input.equalsIgnoreCase("juli")) {
             System.out.println(juli + " dagar");
-        } else if (input.equals("augusti")) {
+        } else if (input.equalsIgnoreCase("augusti")) {
             System.out.println(augusti + " dagar");
-        } else if (input.equals("september")) {
+        } else if (input.equalsIgnoreCase("september")) {
             System.out.println(september + " dagar");
-        } else if (input.equals("oktober")) {
+        } else if (input.equalsIgnoreCase("oktober")) {
             System.out.println(oktober + " dagar");
-        } else if (input.equals("november")) {
+        } else if (input.equalsIgnoreCase("november")) {
             System.out.println(november + " dagar");
-        } else if (input.equals("december")) {
+        } else if (input.equalsIgnoreCase("december")) {
             System.out.println(december + " dagar");
         } else {
             System.out.println("error. skriv en månad");
-
         }
 
         sc.close();
